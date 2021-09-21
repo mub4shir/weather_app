@@ -6,7 +6,6 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   background: #222;
-  font-family: 'Open Sans', sans-serif;
   background: url('https://source.unsplash.com/1600x900/?landscape') no-repeat
     center center/cover;
   font-size: 120%;
@@ -77,4 +76,21 @@ h1.temp {
   position: absolute;
   top: 0;
   left: 20px;
+}
+.footer {
+  font-family: inherit;
+  text-align: right;
+  font-size: 1rem;
+  color: white;
+}
+
+.footer span {
+  color: #ff1e42;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.msg {
+  color: #ff1e42;
 }
