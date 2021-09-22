@@ -32,8 +32,11 @@ let weather = {
     document.querySelector('.wind').innerText =
       'Wind speed: ' + speed + ' km/h';
     document.querySelector('.weather').classList.remove('loading');
+    // document.body.style.backgroundImage =
+    //   'https://source.unsplash.com/1600x900/?landscape';
     document.body.style.backgroundImage =
       "url('https://source.unsplash.com/1600x900/?" + name + "')";
+    //console.log(document.body.style.backgroundImage);
   },
   search: function () {
     this.fetchWeather(document.querySelector('.search-bar').value);
