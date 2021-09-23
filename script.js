@@ -1,6 +1,6 @@
 const msg = document.querySelector('.msg');
 let weather = {
-  apiKey: '',
+  apiKey: '03ca72fd614410fae2e46fc9ff20dea7',
   msg: document.querySelector('.msg'),
   fetchWeather: function (city) {
     fetch(
@@ -44,7 +44,7 @@ let weather = {
 };
 let geocode = {
   reverseGeocode: function (latitude, longitude) {
-    var api_key = '';
+    var api_key = 'cbdce458720f4085842984a27d612fdb';
 
     var api_url = 'https://api.opencagedata.com/geocode/v1/json';
 
